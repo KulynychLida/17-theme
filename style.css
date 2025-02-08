@@ -1,0 +1,119 @@
+body {  
+    margin: 0;  
+    font-size: 22px;  
+    background-color: blanchedalmond;
+}
+ul {  
+    margin: 0;  
+    padding: 0;  
+    list-style: none;  
+}  
+a {
+    text-decoration: none; 
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* header */ 
+.header {
+    background-color: rgb(221, 103, 82);
+    padding: 10px 0;
+}  
+.header-container {  
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+}  
+.header-img {  
+    width: 120px;  
+}  
+.header-list  {  
+    display: flex; 
+    gap: 50px; 
+}
+.header-link {
+    color: white;
+    font-size: 24px;  
+    font-weight: 700px;  
+}  
+.header-link:hover {  
+    color: blanchedalmond;
+    font-weight: 700;
+}
+/* головна секція */ 
+.hero {  
+    padding: 50px 0;  
+}  
+.hero-container {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+.hero-image {  
+    width: 550px;  
+    padding-right: 50px;
+}
+.hero-title {  
+    font-size: 48px;  
+    color: rgb(113, 27, 12);  
+    font-weight: 700;  
+}  
+/* Інградієнти для тіста */ 
+.dough {  
+    padding: 50px 0px;  
+    background-color:rgb(255, 167, 123);  
+}  
+.dough-container { 
+    display: flex;  
+    align-items: center;  
+    gap: 50px;
+}
+.dough-image {
+    width: 550px;
+}
+.dough-title {  
+    color: rgb(113, 27, 12); 
+}  
+.dough-item {  
+    list-style: disc;  
+    margin-left: 50px;  
+}  
+/* Начинка */
+.filling {
+    padding: 50px 0;
+    gap: 50px;
+}
+.filling-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filling-image {
+    width: 550px;
+}
+.filling-title {
+    color: rgb(113, 27, 12);
+}
+.filling-item {
+    list-style: disc;
+    margin-left: 50px;
+}
+/* footer */
+.footer {  
+    padding: 10px 0px;  
+    background-color: rgb(221, 103, 82);  
+} 
+.footer-container {
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    gap: 20px;  
+ }  
+.footer-text {  
+    color: white;  
+    font-size: 18px; 
+} 
+.footer-image {
+    width: 30px;
+}
